@@ -1,0 +1,30 @@
+
+.content, .editInfo{
+    border-radius: 5px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    width: 40%;
+    margin: 10px auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+}
+
+.errorText{
+    color: #D8000C;
+    text-align: center;
+}
+
+.sDivider{
+    height: 3px;
+    background-color: black;
+    width: 100%;
+}
+
+@media (max-width:1000px){
+    .content, .editInfo{
+        width: 80%;
+    }
+
+}

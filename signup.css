@@ -1,0 +1,106 @@
+#togglePassword{ /*eye icon*/
+    margin-left: -30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#close{ /*close icon*/
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#close:hover{
+    color: red;
+}
+
+#notice{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Verdana, Tahoma, Times New Roman, Georgia, Courier New;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #9891B0; /*temporary color*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    margin: 10px auto;
+    padding: 1rem;
+}
+
+.errorText{
+    color: #D8000C;
+    text-align: center;
+}
+
+.successText{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+#terms{
+    text-align: left;
+    font-size: 12px;
+}
+
+button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5%;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0069d9;
+    cursor: pointer;
+}
+
+.submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#alrAMember{
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#signInLink, #termsLink{
+    text-decoration: none;
+    color: #007bff;
+}
+
+#signInLink:hover, #termsLink:hover{
+    color: red;
+}

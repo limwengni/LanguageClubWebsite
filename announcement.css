@@ -1,0 +1,33 @@
+.content{
+    border-radius: 5px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    margin: 10px auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+}
+
+.sorting{
+    text-decoration: none;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hideform {
+    display: none;
+}
+
+@media (max-width:1000px){
+    .content{
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,54 @@
+body { 
+    margin: 0;
+    font-family: Arial, Verdana, Tahoma, Times New Roman, Georgia, Courier New;
+}
+
+* { 
+    box-sizing: border-box; 
+}
+
+#students{ 
+    overflow:scroll;
+    border-collapse: collapse; 
+    margin: 0;
+    width: 100%;
+    font-size: 15px;
+    table-layout: fixed;
+    overflow-x:auto;
+}
+
+.content{
+    border-radius: 5px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: 10px auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+}
+
+#students td, #students th{
+    border: 1px solid #ddd;
+}
+
+#edit, #delete{
+    width: 100%;
+}
+
+.sortHeader{
+    text-decoration:none; 
+    color:black;
+}
+
+.sortHeader:hover{
+    color:red;
+}
+
+@media (max-width:1000px){
+    table{
+        column-width: 100px;
+    }
+    
+}

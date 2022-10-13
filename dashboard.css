@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, Verdana, Tahoma, Times New Roman, Georgia, Courier New;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.content{
+    width: 100%;
+    margin: 10px auto;
+    padding: 1rem;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+}
+
+.classes{
+    background-color:rgb(240, 240, 240);
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 1rem;
+    text-align: justify;
+}
+
+@media (max-width:1000px){
+    table{
+        column-width: 100px;
+    }
+    .classes{
+        height: 100%;
+    }
+
+}
