@@ -1,0 +1,1 @@
+I am in charge of making menu page, about us page, dashboard page, header and footer for the website, login page, sign up page, logout page, search page for member, memberList page, profile page, view announcement page.
